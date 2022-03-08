@@ -1,5 +1,2 @@
 #!/bin/bash
-##echo "obase=2;$BINARY" | bc
-##export BINARY=10100111001
-##echo "ibase=2;  $BINARY" | bc
-##echo "obase=10;BINARY" | bc
+echo $((2#BINARY))
